@@ -1,0 +1,408 @@
+@font-face {
+	font-family: 'B52';
+	font-style: normal;
+	font-weight: normal;
+	src: local('B52'),
+		url('B52.woff') format('woff'),
+		url('B52.ttf') format('ttf'),
+		url('B52.eot') format('eot');
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ШАПКА */
+
+header {
+  width: 100%;
+  background-color: #8B9AC0;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#toTop {
+  background:#324882;
+  text-align:center;
+  padding:5px;
+  position: fixed;
+  bottom: 10px; /* отступ кнопки от нижнего края страницы*/
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  text-decoration: none;
+  font-family: B52, Courier New, Helvetica;
+  font-size: 30px;
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 3px solid;
+  }
+
+nav {
+  width: 80%;
+  padding: 10px;
+  background-color: #324882;
+  border-radius: 30px;
+}
+
+.navig {
+    text-decoration: none;
+    font-family: B52, Courier New, Helvetica;
+    font-size: 30px;
+    margin: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.menu{
+  margin: 0 35px 0 35px;
+  padding: 0 15px 0 15px;
+  height: 35px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.menu:hover {
+  color: #ffffff;
+  background-color: rgb(139, 154, 192, 0.35);
+}
+
+.menu:active{
+  color: #324882;
+}
+
+.logo {
+   float: left;
+   height: 120px;
+   display: block;
+   margin: 35px;
+   background-color: #324882;
+   border-radius: 30px;
+}
+
+    
+    /* СЕРЕДИНА */
+.info {
+    display: flex;
+    align-items: center;
+    background-color: #324882;
+}
+
+.pekarn {
+    height: 420px;
+}
+
+.levo {
+    float: left;
+    height: 100%;
+}
+
+.pravo {
+    vertical-align: auto;
+}
+
+.info-text {
+    font-family: B52, Courier New, Helvetica;
+    font-size: 22px;
+    margin: 16px;
+    text-align: justify;
+    color:#ffffff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: B52, Courier New, Helvetica;
+}
+
+.recept {
+  width: 50%;
+  /*box-shadow: 0px 0px 0px 2px #324882;*/
+  text-align: center;
+  margin: 10px;
+  display: block;
+  background-color: #8B9AC0;
+}
+
+.navig2 {
+  text-decoration: none;
+  font-family: B52, Courier New, Helvetica;
+  font-size: 2vw;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.bloki {
+  display: flex;
+  margin: 10px;
+}
+
+.bloki-image {
+  width: 95%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #324882;
+  flex: 0;
+  font-family: B52, Courier New, Helvetica;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.hyper2 {
+  font-family: B52, Courier New, Helvetica;
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/*УЖЕ САМИ УСАДЬБЫ*/
+
+.fotka {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("гальских.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka2 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("брянча.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka3 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("данил.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka4 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("хвал.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka5 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("влад.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka6 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("котел.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka7 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("спас.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka8 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("брат.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka9 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("булд.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka10 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("позд.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka11 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("юрово.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka12 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("дудин.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fotka13 {
+  background-image: linear-gradient(to top, rgba(50, 72, 130, 0.6), rgba(50, 72, 130, 0.7)), url("волк.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.hide {
+  width: 50%;
+  /*box-shadow: 0px 0px 0px 2px #324882;*/
+  text-align: center;
+  margin: 10px;
+  display: block;
+  background-color: #ffffff;
+}
+
+.yes {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  background-color: #8B9AC0;
+}
+
+.info-text {
+  font-family: B52, Courier New, Helvetica;
+  font-size: 22px;
+  margin: 16px;
+  text-align: justify;
+  color:#ffffff;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.hyper {
+    font-family: B52, Courier New, Helvetica;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+.levo2 {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.niz {
+  align-items: center;
+  background-color: #324882;
+  padding: 20px;
+  margin: 20px;
+}
+
+.niztext {
+  font-family: B52, Courier New, Helvetica;
+  font-size: 22px;
+  margin: 16px;
+  text-align: justify;
+  color:#ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pravo2 {
+    vertical-align: auto;
+    background-color: #8B9AC0;
+}
+
+.sosis {
+  font-family: B52, Courier New, Helvetica;
+  font-size: 60px;
+  margin: 16px;
+  text-align: center;
+  color:#ffffff;
+}
+
+/* ХЗ ЧТО 
+
+h2 {
+    font-family: B52, Courier New, Helvetica;
+  font-size: 20px;
+  margin: 18px;
+  font-weight: 600;
+}
+
+h3 {
+    font-family: B52, Courier New, Helvetica;
+  font-size: 20px;
+  margin: 16px;
+  font-weight: 600;
+}
+
+p {
+    text-align: justify;
+    font-family: B52, Courier New, Helvetica;
+    font-size: 16px;
+    margin-right: 20px;
+}

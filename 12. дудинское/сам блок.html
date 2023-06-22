@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC>
+<html> 
+<head>
+   <link rel="stylesheet" href="../сам стиль.css">
+   <meta charset="utf-8">
+   <title>Усадьбы Вологодчины</title>
+   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+   $(function() {
+   $(window).scroll(function() {
+   if($(this).scrollTop() != 0) {
+   $('#toTop').fadeIn();
+   } else {
+   $('#toTop').fadeOut();
+   }
+   });
+   $('#toTop').click(function() {
+   $('body,html').animate({scrollTop:0},800);
+   });
+   });
+</script>
+</head>
+
+
+<body>
+
+<header>
+    <div>
+    <img src = "логообв.png" class="logo">
+    </div>
+        
+    <nav class="navig">
+        <a href = "../index.html" class="menu">Главная</a>
+        <a href = "../index.html  #domiki" class="menu">Усадьбы</a>
+        <a href="#vniz" class="menu">Контакты</a>
+    </nav>
+
+</header>
+
+<div class="help">
+    <div class="fotka12">
+        <p class="sosis">Усадьба Дудинское</p>
+    </div>
+
+    <div class="yes">
+        <div class="levo2">
+            <p class="info-text">
+                Усадьба была основана в конце 18 века. Самая старая постройка комплекса – дом управляющего - выстроена в середине XIX века. Главный дом сооружён в конце XIX - начале XX века.
+                Это деревянный, одноэтажный дом с мезонином, который выходит северным фасадом на берег реки Тошни, а южным – на парадный двор.
+            </p>
+        </div>
+        <div class="pravo2">
+            <img src = "дудин1.png" class='pekarn'>
+        </div> 
+    </div>
+
+    <div class="yes">
+        <div class="pravo2">
+            <img src = "дудин2.png" class='pekarn'>
+        </div> 
+        <div class="levo2">
+            <p class="info-text">
+                Приусадебный парк был также разбит на рубеже XIX и XX веков. Сейчас здесь сохранилась одна липовая аллея и несколько отдельно стоящих старых лип. Есть данные, что зимой 1966 года здесь снимался эпизод фильма «Дядюшкин сон».  Актриса Лидия Смирнова именно тут выкликает из бани своего непутевого мужа.
+            </p>
+        </div>
+    </div>
+    <div class="niz">
+        <p class="niztext">
+        <b>В настоящее время жилой дом разделен на пять квартир. Состояние здания неудовлетворительное.</b></p>
+    </div>
+<!--
+    <div class="info">
+        <div class="big">
+            <p>
+            В XIX веке на территории Вологодской губернии насчитывалось более двухсот усадеб. После революции новое правительство национализировало это имущество. Часть усадеб приспособили под социальные объекты или разделили на множество жилых квартир. Но многие попросту снесли, либо разграбили, и они подверглись запустению. 
+
+            В последние десятилетия в Вологодской области появились примеры реставрации усадебных комплексов и благоустройства парковых территорий. В некоторых случаях удалось сохранить не только барский дом, но также бытовые постройки и парк. Проект «Усадьбы Вологодчины», реализуемый в регионе, призван повысить интерес к усадьбам как туристическим объектам и главным достопримечательностям области.
+            </p>
+        </div>
+        <div class="smol">
+            <img src = "гальских.jpg" class='pekarn'>
+        </div> 
+    </div>-->
+
+</div>
+
+<a name="vniz"></a>
+<div class="footer">
+    <p>Телефон +79211246768 ||| Телеграм <a href="https://t.me/zhtelevidente" class="hyper2">@zhtelevidente</a> ||| Почта Nata-Yanka@yandex.ru</p>
+</div>
+<div ID = "toTop">Наверх</div>
+</body>
+
+</html> 
